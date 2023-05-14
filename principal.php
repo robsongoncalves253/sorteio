@@ -1,14 +1,18 @@
 <html>
     <head>
         <title>
-             Sorteio Shopping Independência - Página Inicial
+             Página Inicial
         </title>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="estilos/estilo.css">
     </head>    
     <body>
-        <h1> Sistema de Sorteio Para Cupons de Compra </h1>
-        <br><br>
+        <div style = "background-image: linear-gradient(to left, LightSkyBlue, aliceblue)">
+        <br>
+        <h1> Sistema de Gerenciamento de Sorteios </h1>
+        <br>
+        </div>
+        <br><br><br>
         <form id="opcaoLog" name="opcaoLog" action="controladores/controlaMenuPrincipal.php" method="post">
                 <br><br>
                 <input name="areaCliente" id="areaCliente" type="submit" value="Área do Cliente">

@@ -4,13 +4,18 @@
 <htmL>
     <head>
         <title>
-            Sorteio Shopping Independência - Administrador
+            Administrador
         </title>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="../estilos/estilo.css">
     </head>    
     <body>
+        <div style = "background-image: linear-gradient(to left, LightSkyBlue, aliceblue)">
+        <br>
         <h1> Menu Administrativo</h1>
+        <br>
+        </div>
+        <br><br><br>
     <form id="menuAdm" name="menuAdm" action="../controladores/controlaMenuAdm.php" method="post">
             <br><br>
             <input type="submit" id="listarCliente" name="listarCliente" value="Listar Clientes">

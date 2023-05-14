@@ -5,13 +5,18 @@
 <html>
     <head>
         <title>
-            Sorteio Shopping Independência - Administrador
+            Administrador
         </title>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="../estilos/estilo.css">
     </head>    
     <body>
+        <div style = "background-image: linear-gradient(to left, LightSkyBlue, aliceblue)">
+        <br>
         <h1>Busca de Cupons</h1>
+        <br>
+        </div>
+        <br><br><br>
         <form id="pesquisaCupom" name="pesquisaCupom" action="../controladores/controlaMenuAdm.php" method="post">
             <label>Digite o CPF do Cliente</label>
             <input type="text" id="cpfCliente" name="cpfCliente">

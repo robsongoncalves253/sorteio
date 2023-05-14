@@ -4,13 +4,18 @@
 <html>
     <head>
         <title>
-            Sorteio Shopping Independência - Login
+            Login
         </title>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="../estilos/estilo.css">
     </head>    
     <body>
-            <h1>Login</h1>
+        <div style = "background-image: linear-gradient(to left, LightSkyBlue, aliceblue)">
+        <br>
+        <h1>Login</h1>
+        <br>
+        </div>
+        <br><br><br>
         <form id="LogAdm" name="LogAdm" action="../controladores/controlaLoginAdm.php" method="post">
             <br><br>
             <input name="login" placeholder="Login" id="login" type="text" size="30">

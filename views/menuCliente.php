@@ -5,14 +5,18 @@
 <html>
     <head>
         <title>
-            Sorteio Shopping Independência - Menu Cliente
+            Menu Cliente
         </title>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="../estilos/estilo.css">
     </head>    
     <body>
+        <div style = "background-image: linear-gradient(to left, LightSkyBlue, aliceblue)">
+        <br>
         <h1> Menu Cliente</h1>
-        <br><br>
+        <br>
+        </div>
+        <br><br><br>
         <form id="opcaoLog" name="opcaoLog" action="../controladores/controlaMenuCliente.php" method="post">
             <br><br>
             <input name="cadastrarCupom" id="cadastrarCupom" type="submit" value="Cadastrar Cupom">

@@ -10,7 +10,12 @@
         <link rel="stylesheet" href="../estilos/estilo.css">
     </head>    
     <body>
+        <div style = "background-image: linear-gradient(to left, LightSkyBlue, aliceblue)">
+        <br>
         <h1> Cadastro de clientes</h1>
+        <br>
+        </div>
+        <br><br><br>
         <form id="cadastro" name="cadastro" action="../controladores/controlaCadastroCliente.php" method="post">
         
             <label>CPF</label>

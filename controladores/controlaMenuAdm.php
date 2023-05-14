@@ -16,7 +16,12 @@
             $result = json_decode($resultado, true);
             echo"<link rel='stylesheet' href='../estilos/estilo.css'>";
             //echo "<table style='text-align:'center' border = '1' width='60%'><tr>";
+            echo "<div style = 'background-image: linear-gradient(to left, LightSkyBlue, aliceblue)'>";
+            echo "<br>";
             echo "<h1>Clientes Cadastrados</h1>";
+            echo "<br>";
+            echo"</div>";
+            echo "<br><br><br>";
             echo "<table><tr>";
             $titulo = $result[0];
             foreach ($titulo as $chave => $valor) {
@@ -53,7 +58,12 @@
             $result = json_decode($resultado, true);
             echo"<link rel='stylesheet' href='../estilos/estilo.css'>";
             //echo "<table style='text-align:'center' border = '1' width='60%'><tr>";
+            echo "<div style = 'background-image: linear-gradient(to left, LightSkyBlue, aliceblue)'>";
+            echo "<br>";
             echo "<h1>Números da Sorte</h1>";
+            echo "<br>";
+            echo "</div>";
+            echo "<br><br><br>";
             echo "<table><tr>";
             $titulo = $result[0];
             foreach ($titulo as $chave => $valor) {
@@ -89,7 +99,12 @@
             $result = json_decode($resultado, true);
             echo"<link rel='stylesheet' href='../estilos/estilo.css'>";
             //echo "<table style='text-align:'center' border = '1' width='60%'><tr>";
+            echo "<div style = 'background-image: linear-gradient(to left, LightSkyBlue, aliceblue)'>";
+            echo "<br>";
             echo "<h1>Cupons Cadastrados</h1>";
+            echo "<br>";
+            echo "</div>";
+            echo "<br><br><br>";
             echo "<table><tr>";
             $titulo = $result[0];
             foreach ($titulo as $chave => $valor) {
